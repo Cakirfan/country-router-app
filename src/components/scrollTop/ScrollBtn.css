@@ -1,0 +1,27 @@
+
+.scrollTop {
+    position: fixed;
+    bottom: 800px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background: #fff url(../../img/up.png);
+    color: #a51c1c!important;
+    border-radius: 9px;
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 3px 7px 7px red;
+    border: 3px solid #000;
+    cursor: pointer;
+    z-index: 10000;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.scrollTop.active {
+    bottom: 80px;
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,0 +1,90 @@
+/** ===== MY LOGO STYLE START ===== */
+.logo-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .2rem auto;
+  height: 90px;
+  width: 90px;
+  border: 1px solid #af0808;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 50%;
+  background-color: #f9fafd;
+}
+
+.logo-container:hover {
+  box-shadow: none;
+}
+
+.ring {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+}
+
+.ring:nth-child(1) {
+  border-bottom-width: 8px;
+  border-color: rgb(7, 48, 253);
+  animation: animate 2s linear infinite;
+}
+@keyframes animate {
+  from {
+    transform: rotateX(30deg) rotateY(-45deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(30deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+
+.ring:nth-child(2) {
+  border-right: 8px solid rgba(9, 209, 244, 0.979);
+  animation: animes 2s linear infinite;
+}
+@keyframes animes {
+  from {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
+.ring:nth-child(3) {
+  border-left: 8px solid rgba(242, 127, 101, 0.979);
+  animation: animess 2s linear infinite;
+}
+@keyframes animess {
+  from {
+    transform: rotateX(35deg) rotateY(55deg) rotate(0);
+  }
+  to {
+    transform: rotateX(35deg) rotateY(55deg) rotatez(360deg);
+  }
+}
+
+.ring:nth-child(4) {
+  border: 2px solid rgb(180, 19, 174);
+}
+.Lparaf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: rgba(156, 28, 19, 0.998);
+  font-weight: 900;
+  width: "50px";
+  height: "50px";
+  border: none!important;
+  padding: "1rem";
+  text-align: "center";
+}
+
+/** ===== MY LOGO STYLE END ===== */

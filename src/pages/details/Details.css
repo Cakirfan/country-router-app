@@ -1,0 +1,4 @@
+.cont:hover {
+    transform: scale(.95);
+    transition: all .5s ease;
+}
