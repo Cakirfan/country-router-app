@@ -41,7 +41,7 @@ const Home = () => {
     <Container className="text-center mt-5 d-flex flex-column align-items-center">
       <input
         className="input-group-text w-75"
-        style={{ marginTop: "6rem" }}
+        style={{ marginTop: "6rem", outline: "none", textAlign: "left" }}
         type="text"
         placeholder="Search countries..."
         onChange={handleSearchChange}
