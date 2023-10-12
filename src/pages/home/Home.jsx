@@ -43,7 +43,7 @@ const Home = () => {
         className="input-group-text w-75"
         style={{ marginTop: "6rem", outline: "none", textAlign: "left" }}
         type="text"
-        placeholder="Search countries..."
+        placeholder="Search Countries..."
         onChange={handleSearchChange}
         autoFocus
       />
